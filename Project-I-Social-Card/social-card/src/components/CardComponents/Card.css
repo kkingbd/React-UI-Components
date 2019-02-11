@@ -1,1 +1,10 @@
 /* All styles for your Card Components live here */
+.atom{
+    display: flex;
+    flex-direction: column;
+}
+
+.atom-image{
+    width: 100%;
+    height: 400px;
+}
