@@ -1,16 +1,27 @@
-import React from 'react';
+import React, {Component} from 'react';
 import './App.css';
 import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay';
-import ButtonContainer from './components/ButtonComponents/ButtonContainer';
-import ActionButton from './components/ButtonComponents/ActionButton';
-import NumberButton from './components/ButtonComponents/NumberButton';
+import ButtonContainer from './components/ButtonComponents/ButtonContainer';import NumberButton from './components/ButtonComponents/NumberButton';
+import OperatorContainer from './components/ButtonComponents/OperatorContainer';
 
-const App = () => {
-  return (
-    <div>
-      <h3>Welcome to React Calculator</h3>
-    </div>
-  );
-}; 
+const numbers = ['9', '8', '7', '6', '5', '4', '3', '2', '1'];
+const operators = ['÷', 'x', '-', '+', '='];
 
+class App extends Component{
+  constructor(props){
+    super(props);
+    this.state = {
+      total: 0
+    }
+  };
+   render(){
+     return(
+        <div className = 'container'>
+            <CalculatorDisplay display={this.state.total} />
+            <ButtonContainer numbers={numbers} clicked={this.clicked} />
+            <OperatorContainer operators={operators} clicked={this.clicked} />
+        </div>
+     );
+   }
+}
 export default App;
