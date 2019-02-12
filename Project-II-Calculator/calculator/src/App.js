@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import './App.css';
 import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay';
-import ButtonContainer from './components/ButtonComponents/ButtonContainer';import NumberButton from './components/ButtonComponents/NumberButton';
+import ButtonContainer from './components/ButtonComponents/ButtonContainer';
 import OperatorContainer from './components/ButtonComponents/OperatorContainer';
 
 const numbers = ['9', '8', '7', '6', '5', '4', '3', '2', '1'];

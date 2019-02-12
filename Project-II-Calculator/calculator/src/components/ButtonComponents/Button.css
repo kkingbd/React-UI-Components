@@ -14,3 +14,21 @@
   .button:hover {
     background: #dddddd;
   }
+
+  .operator-button {
+    width: 100%;
+    background-color: #96001C;
+    color: white;
+    font-weight: 300;
+  }
+  
+  .operator-button:hover {
+    background: #7f0017;
+  }
+  
+  .button-container {
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+  }
