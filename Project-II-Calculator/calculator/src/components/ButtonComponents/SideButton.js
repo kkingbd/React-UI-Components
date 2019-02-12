@@ -1,10 +1,10 @@
 import React from 'react';
 import './Button.css';
 
-const WideButton = props => {
+const SideButton = props => {
   return (
     <p
-      className={`button wide-button ${props.fontWeight}`}
+      className={`button side-button ${props.fontWeight}`}
       onClick={props.clicked}
     >
       {props.text}
@@ -12,4 +12,4 @@ const WideButton = props => {
   );
 };
 
-export default WideButton;
+export default SideButton;

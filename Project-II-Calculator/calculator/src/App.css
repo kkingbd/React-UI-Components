@@ -1,7 +1,6 @@
 * {
     box-sizing: border-box;
   }
-
   body {
     display: flex;
     justify-content: center;
@@ -9,18 +8,15 @@
     height: 100vh;
     background: #101010;
   }
-  
   .container {
-    width: 450px;
     display: flex;
     flex-wrap: wrap;
+    width: 500px;
     border: 2px solid #8c8c8c;
   }
-
   h2 {
     font-size: 14px;
   }
-  
   p {
     font-size: 14px;
     margin: 0;

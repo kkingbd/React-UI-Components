@@ -1,11 +1,11 @@
 import React from 'react';
 import './Button.css';
 import NumberButton from './NumberButton';
-import WideButton from './WideButton';
+import SideButton from './SideButton';
 const ButtonContainer = props => {
     return (
       <div className="button-container">
-        <WideButton text="clear" fontWeight="light" clicked={props.clicked} />
+        <SideButton text="clear" fontWeight="light" clicked={props.clicked} />
         {props.numbers.map((number, index) => {
           return (
             <NumberButton
@@ -16,7 +16,7 @@ const ButtonContainer = props => {
           );
         })}
   
-        <WideButton text="0" clicked={props.clicked} />
+        <SideButton text="0" clicked={props.clicked} />
       </div>
     );
   };
