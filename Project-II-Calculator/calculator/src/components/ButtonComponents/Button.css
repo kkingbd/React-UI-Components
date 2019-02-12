@@ -1,46 +1,36 @@
 .button {
-    width: 33.33%;
-    height: 95px;
-    border: 1px solid #8c8c8c;
-    color: #1F1F1F;
-    background: white;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 42px;
-    font-weight: 700;
+    width: 33.33%;
+    height: 95px;
+    font-size: 40px;
+    border: 1px solid #8c8c8c;
+    color: #1F1F1F;
+    background: white;
   }
-  
   .button:hover {
-    background: #cc4e4e;
+    background: #880707;
+    color: white;
   }
-
   .operator-button {
     width: 100%;
     background-color: #96001C;
     color: white;
-    font-weight: 300;
   }
-  
   .operator-button:hover {
-    background: #7f0017;
+    background: #1b0107;
+    color : red;
   }
-  
   .button-container {
-    width: 75%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row-reverse;
+    width: 75%;
   }
-  
   .operator-container {
     width: 25%;
   }
-  
-  .light {
-    font-weight: 300;
-  }
- 
-  .wide-button {
+  .side-button {
     width: 100%;
   }

@@ -17,9 +17,9 @@ class App extends Component{
    render(){
      return(
         <div className = 'container'>
-            <CalculatorDisplay display={this.state.total} />
-            <ButtonContainer numbers={numbers} clicked={this.clicked} />
-            <OperatorContainer operators={operators} clicked={this.clicked} />
+            <CalculatorDisplay display = {this.state.total} />
+            <ButtonContainer numbers = {numbers} />
+            <OperatorContainer operators = {operators}  />
         </div>
      );
    }
