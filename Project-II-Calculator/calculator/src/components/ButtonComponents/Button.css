@@ -1,0 +1,36 @@
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33.33%;
+    height: 95px;
+    font-size: 40px;
+    border: 1px solid pink;
+    color: #1F1F1F;
+    background: white;
+  }
+  .button:hover {
+    background: #880707;
+    color: white;
+  }
+  .operator-button {
+    width: 100%;
+    background-color: #96001C;
+    color: white;
+  }
+  .operator-button:hover {
+    background: #1b0107;
+    color : red;
+  }
+  .button-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    width: 75%;
+  }
+  .operator-container {
+    width: 25%;
+  }
+  .side-button {
+    width: 100%;
+  }
