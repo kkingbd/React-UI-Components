@@ -8,10 +8,10 @@ const ButtonContainer = props => {
         <  SideButton text="clear" />
         {props.numbers.map((number, index) => {
           return (
-          <  NumberButton text= {number}   />
+          <  NumberButton text= {number} />
           );
         })}
-        < SideButton  />
+        < SideButton text = '0' />
       </div>
     );
   };

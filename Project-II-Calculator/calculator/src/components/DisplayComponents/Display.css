@@ -2,11 +2,16 @@
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    width: 100%;
     padding-right: 3rem;
     background: rgb(19, 15, 15);
-    color: rgb(211, 30, 30);
+    color: white;
     font-size: 70px;
     font-weight: 3rem;
     padding: 2%;
-    width: 100%;
+
 }  
+.display:hover{
+    background: white;
+    color: black;
+}
