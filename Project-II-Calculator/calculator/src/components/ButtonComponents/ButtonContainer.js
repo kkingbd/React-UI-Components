@@ -5,20 +5,14 @@ import SideButton from './SideButton';
 const ButtonContainer = props => {
     return (
       <div className="button-container">
-        <SideButton text="clear" fontWeight="light" clicked={props.clicked} />
+        <  SideButton text="clear" />
         {props.numbers.map((number, index) => {
           return (
-            <NumberButton
-              text={number}
-              key={'number' + index}
-              clicked={props.clicked}
-            />
+          <  NumberButton text= {number}   />
           );
         })}
-  
-        <SideButton text="0" clicked={props.clicked} />
+        < SideButton  />
       </div>
     );
   };
-  
   export default ButtonContainer;

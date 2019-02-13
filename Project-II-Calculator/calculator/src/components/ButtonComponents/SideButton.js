@@ -3,13 +3,9 @@ import './Button.css';
 
 const SideButton = props => {
   return (
-    <p
-      className={`button side-button ${props.fontWeight}`}
-      onClick={props.clicked}
-    >
+    <p className='button side-button' >
       {props.text}
     </p>
   );
 };
-
 export default SideButton;
